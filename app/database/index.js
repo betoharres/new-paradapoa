@@ -6,7 +6,7 @@ SQLite.enablePromise(true)
 export async function connectToDatabase() {
   return SQLite.openDatabase({
     name: 'schedules',
-    createFromLocation: '~schedules.sqlite',
+    createFromLocation: '~schedules.db',
   })
 }
 

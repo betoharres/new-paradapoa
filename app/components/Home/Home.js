@@ -12,16 +12,7 @@ export default function Home({navigation}) {
   const conn = useContext(DatabaseContext)
 
   async function onPressBus(bus) {
-    const [result] = await conn.executeSql(
-      `\
-SELECT * FROM schedules s
-  LEFT JOIN bus_stops bs ON bs.schedule_id = s.id
-  WHERE bs.bus_id = (?);
-      `,
-      [bus.id]
-    )
-    const schedules = result.rows.raw()
-    navigation.navigate('Bus', {bus, schedules})
+    navigation.navigate('Bus', {bus})
   }
 
   async function onChangeSearchField(text) {
@@ -38,12 +29,12 @@ SELECT * FROM schedules s
     <Container>
       <SearchBar
         showCancel
+        value={search}
         placeholder="Pesquisar..."
         searchIcon={{name: 'search'}}
         clearIcon={{name: 'close'}}
         onChangeText={onChangeSearchField}
         platform={Platform.select({ios: 'ios', android: 'android'})}
-        value={search}
       />
       {busList.map((bus) => (
         <ListItem

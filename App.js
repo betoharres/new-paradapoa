@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Dimensions} from 'react-native'
 import {
   NavigationContainer,
   DefaultTheme,
@@ -8,9 +9,22 @@ import {createStackNavigator} from '@react-navigation/stack'
 import {AppearanceProvider, useColorScheme} from 'react-native-appearance'
 
 import {Home, Bus} from './app/components'
-import { connectToDatabase, DatabaseContext } from './app/database'
+import {connectToDatabase, DatabaseContext} from './app/database'
 
 const Stack = createStackNavigator()
+const {width: SCREEN_WIDTH} = Dimensions.get('window')
+const getBusNavigationOptions = ({
+  route: {
+    params: {bus},
+  },
+}) => ({
+  title: `${bus.code} - ${bus.name}`,
+  headerTitleStyle: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    maxWidth: SCREEN_WIDTH * 0.7,
+  },
+})
 
 function App() {
   const [databaseConnection, setDatabaseConnection] = useState(null)
@@ -32,7 +46,11 @@ function App() {
         >
           <Stack.Navigator>
             <Stack.Screen name="Home" component={Home} />
-            <Stack.Screen name="Bus" component={Bus} />
+            <Stack.Screen
+              name="Bus"
+              component={Bus}
+              options={getBusNavigationOptions}
+            />
           </Stack.Navigator>
         </NavigationContainer>
       </AppearanceProvider>
