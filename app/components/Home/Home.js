@@ -7,7 +7,10 @@ export default function Home({navigation}) {
   function onPressBus(bus) {
     // fetch bus schedules
     // navigate to Bus
+    navigation.navigate('Bus')
   }
+
+  console.log('render')
 
   return (
     <Container>
