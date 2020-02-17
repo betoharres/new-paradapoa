@@ -12,9 +12,9 @@ export default function Bus({id, code, name, navigation}) {
 }
 
 Bus.propTypes = {
-  id: number.isRequired,
-  code: string.isRequired,
-  name: string.isRequired,
+  id: number,
+  code: string,
+  name: string,
   navigation: shape({
     goBack: func.isRequired,
   }).isRequired,

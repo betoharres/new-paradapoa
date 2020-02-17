@@ -6,7 +6,7 @@ import {Container} from './Home.styles'
 export default function Home({navigation}) {
   function onPressBus(bus) {
     // fetch bus schedules
-    navigation.navigate('Bus', bus)
+    // navigate to Bus
   }
 
   return (
