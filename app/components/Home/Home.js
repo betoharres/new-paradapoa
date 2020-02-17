@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react'
+import { Platform } from 'react-native'
 import {shape, func} from 'prop-types'
-import {Input, ListItem} from 'react-native-elements'
+import {SearchBar, ListItem} from 'react-native-elements'
 import {Container} from './Home.styles'
 
 import {DatabaseContext} from '~/app/database'
@@ -32,7 +33,14 @@ SELECT * FROM schedules s
 
   return (
     <Container>
-      <Input onChangeText={onChangeSearchField} />
+      <SearchBar
+        showCancel
+        placeholder="Pesquisar..."
+        searchIcon={{name: 'search'}}
+        clearIcon={{name: 'close'}}
+        onChangeText={onChangeSearchField}
+        platform={Platform.select({ios: 'ios', android: 'android'})}
+      />
       {busList.map((bus) => (
         <ListItem
           key={bus.id}
