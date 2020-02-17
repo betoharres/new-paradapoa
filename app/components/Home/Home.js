@@ -1,5 +1,5 @@
 import React, {useState, useContext} from 'react'
-import { Platform } from 'react-native'
+import {Platform} from 'react-native'
 import {shape, func} from 'prop-types'
 import {SearchBar, ListItem} from 'react-native-elements'
 import {Container} from './Home.styles'
@@ -7,6 +7,7 @@ import {Container} from './Home.styles'
 import {DatabaseContext} from '~/app/database'
 
 export default function Home({navigation}) {
+  const [search, setSearch] = useState('')
   const [busList, setBusList] = useState([])
   const conn = useContext(DatabaseContext)
 
@@ -24,8 +25,10 @@ SELECT * FROM schedules s
   }
 
   async function onChangeSearchField(text) {
+    setSearch(text)
     const [result] = await conn.executeSql(
-      `SELECT * FROM buses WHERE code LIKE '%${text}%'`
+      `SELECT * FROM buses WHERE code LIKE '%${text}%' \
+        OR name LIKE '%${text}%' LIMIT 30`
     )
     const searchedBusList = result.rows.raw()
     setBusList(searchedBusList)
@@ -40,6 +43,7 @@ SELECT * FROM schedules s
         clearIcon={{name: 'close'}}
         onChangeText={onChangeSearchField}
         platform={Platform.select({ios: 'ios', android: 'android'})}
+        value={search}
       />
       {busList.map((bus) => (
         <ListItem
