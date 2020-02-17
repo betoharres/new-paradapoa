@@ -11,7 +11,7 @@ export default function Home({navigation}) {
 
   return (
     <Container>
-      <Text>Home</Text>
+      <Text onPress={onPressBus}>Home</Text>
     </Container>
   )
 }
