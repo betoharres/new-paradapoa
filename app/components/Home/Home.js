@@ -1,20 +1,45 @@
-import React from 'react'
+import React, {useState, useContext} from 'react'
 import {shape, func} from 'prop-types'
-import {Text} from 'react-native-elements'
+import {Input, ListItem} from 'react-native-elements'
 import {Container} from './Home.styles'
 
+import {DatabaseContext} from '~/app/database'
+
 export default function Home({navigation}) {
-  function onPressBus(bus) {
-    // fetch bus schedules
-    // navigate to Bus
-    navigation.navigate('Bus')
+  const [busList, setBusList] = useState([])
+  const conn = useContext(DatabaseContext)
+
+  async function onPressBus(bus) {
+    const [result] = await conn.executeSql(
+      `\
+SELECT * FROM schedules s
+  LEFT JOIN bus_stops bs ON bs.schedule_id = s.id
+  WHERE bs.bus_id = (?);
+      `,
+      [bus.id]
+    )
+    const schedules = result.rows.raw()
+    navigation.navigate('Bus', {bus, schedules})
   }
 
-  console.log('render')
+  async function onChangeSearchField(text) {
+    const [result] = await conn.executeSql(
+      `SELECT * FROM buses WHERE code LIKE '%${text}%'`
+    )
+    const searchedBusList = result.rows.raw()
+    setBusList(searchedBusList)
+  }
 
   return (
     <Container>
-      <Text onPress={onPressBus}>Home</Text>
+      <Input onChangeText={onChangeSearchField} />
+      {busList.map((bus) => (
+        <ListItem
+          key={bus.id}
+          title={`${bus.code} - ${bus.name}`}
+          onPress={() => onPressBus(bus)}
+        />
+      ))}
     </Container>
   )
 }
