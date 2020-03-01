@@ -1,4 +1,4 @@
-import React, {useEffect, useContext, useState} from 'react'
+import React, {useCallback, useEffect, useContext, useState} from 'react'
 import {string, number, shape, func} from 'prop-types'
 // prettier fucked up
 // eslint-disable-next-line max-len
@@ -39,16 +39,20 @@ export default function Bus({
     return currentSchedule.busData
   }
 
-  useEffect(() => {
-    async function fetchBusData(bus) {
+  const fetchBusData = useCallback(
+    async (bus) => {
       const sql = 'SELECT * FROM schedules WHERE bus_id = (?);'
       const [result] = await conn.executeSql(sql, [bus.id])
       const {rows: schedules} = result
       const busData = formatSchedulesIntoSections(schedules)
       setBusData(busData)
-    }
+    },
+    [conn]
+  )
+
+  useEffect(() => {
     fetchBusData(bus)
-  }, [bus, conn])
+  }, [bus, fetchBusData])
 
   if (busData) {
     const directions = Object.keys(busData)

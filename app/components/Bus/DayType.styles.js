@@ -21,4 +21,8 @@ export const Card = styled(RNECard).attrs(() => ({
   },
 }))``
 
-export const ListItem = styled(RNEListItem).attrs(() => ({}))``
+export const ListItem = styled(RNEListItem).attrs(({disabled}) => ({
+  titleStyle: {
+    color: disabled ? 'grey' : 'black',
+  },
+}))``
