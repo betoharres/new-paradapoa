@@ -3,11 +3,11 @@ import {FlatList, Dimensions} from 'react-native'
 import {shape, object} from 'prop-types'
 import Carousel from 'react-native-snap-carousel'
 
-import {Container, Card, ListItem} from './DayType.styles'
-import Pagination from './Pagination'
+import {Container, Card, ListItem} from '../DayType/DayType.styles'
+import Pagination from '../Pagination/Pagination'
 
-import {dayTypeLabels} from './lib/constants'
-import {getCurrentDayType} from './lib/utils'
+import {dayTypeLabels} from '../lib/constants'
+import {getCurrentDayType} from '../lib/utils'
 
 const {width: SCREEN_WIDTH} = Dimensions.get('window')
 

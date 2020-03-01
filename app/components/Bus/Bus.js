@@ -4,7 +4,7 @@ import {string, number, shape, func} from 'prop-types'
 // eslint-disable-next-line max-len
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs'
 
-import DayType from './DayType'
+import DayType from './DayType/DayType'
 import {DatabaseContext} from '~/app/database'
 import BusSchedule from './lib/BusSchedule'
 import {directionLabels} from './lib/constants'
