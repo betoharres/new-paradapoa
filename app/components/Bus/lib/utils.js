@@ -6,8 +6,13 @@ export function getCurrentDayType(schedules) {
   else return schedules.length - 1
 }
 
-export function getCurrentTimeDateTimeValue(hour, minute) {
-  const date = new Date(2020, 0, 3)
+export function getCurrentTimeDateTimeValue(dayType, hour, minute) {
+  // Dias Úteis: 2020-01-03
+  // Sábado: 2020-01-04
+  // Domingo: 2020-01-05
+  const dayTypeDaysOfTheMonth = {1: 3, 2: 4, 3: 5}
+  const day = dayTypeDaysOfTheMonth[dayType]
+  const date = new Date(2020, 0, day)
   const timeDateTime = (new Date(date.setHours(hour))).setMinutes(minute)
   return new Date(timeDateTime)
 }

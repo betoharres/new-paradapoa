@@ -1,4 +1,9 @@
-export const dayTypeLabels = ['Desconhecido', 'Dias Úteis', 'Sábado', 'Domingo']
+export const dayTypeLabels = [
+  'Desconhecido',
+  'Dias Úteis',
+  'Sábados',
+  'Domingo',
+]
 
 export const directionLabels = [
   'Desconhecido',
@@ -20,6 +25,7 @@ export const directionLabels = [
   'Leste -> Sul',
   'Sul -> Leste',
 ]
+
 export const directionIcons = [
   {iconName: 'error', iconType: 'material'},
 
