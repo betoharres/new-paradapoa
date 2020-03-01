@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useContext, useCallback} from 'react'
-import {Platform} from 'react-native'
+import {Platform, ScrollView} from 'react-native'
 import {shape, func} from 'prop-types'
 import {SearchBar, ListItem} from 'react-native-elements'
 import {Container} from './Home.styles'
@@ -13,7 +13,7 @@ export default function Home({navigation}) {
 
   const fetchInitialBuses = useCallback(async () => {
     if (conn) {
-      const sql = 'SELECT * FROM buses LIMIT 30;'
+      const sql = 'SELECT * FROM buses LIMIT 40;'
       const [result] = await conn.executeSql(sql)
       const initialBuses = result.rows.raw()
       setBusList(initialBuses)
@@ -39,24 +39,26 @@ export default function Home({navigation}) {
   }, [fetchInitialBuses])
 
   return (
-    <Container>
-      <SearchBar
-        showCancel
-        value={search}
-        placeholder="Pesquisar..."
-        searchIcon={{name: 'search'}}
-        clearIcon={{name: 'close'}}
-        onChangeText={onChangeSearchField}
-        platform={Platform.select({ios: 'ios', android: 'android'})}
-      />
-      {busList.map((bus) => (
-        <ListItem
-          key={bus.id}
-          title={`${bus.code} - ${bus.name}`}
-          onPress={() => onPressBus(bus)}
+    <ScrollView>
+      <Container>
+        <SearchBar
+          showCancel
+          value={search}
+          placeholder="Pesquisar..."
+          searchIcon={{name: 'search'}}
+          clearIcon={{name: 'close'}}
+          onChangeText={onChangeSearchField}
+          platform={Platform.select({ios: 'ios', android: 'android'})}
         />
-      ))}
-    </Container>
+        {busList.map((bus) => (
+          <ListItem
+            key={bus.id}
+            title={`${bus.code} - ${bus.name}`}
+            onPress={() => onPressBus(bus)}
+          />
+        ))}
+      </Container>
+    </ScrollView>
   )
 }
 
