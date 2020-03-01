@@ -25,7 +25,6 @@ export default function Home({navigation}) {
   }
 
   async function onChangeSearchField(text) {
-    setSearch(text)
     const [result] = await conn.executeSql(
       `SELECT * FROM buses WHERE code LIKE '%${text}%' \
         OR name LIKE '%${text}%' LIMIT 30`
@@ -47,7 +46,7 @@ export default function Home({navigation}) {
           placeholder="Pesquisar..."
           searchIcon={{name: 'search'}}
           clearIcon={{name: 'close'}}
-          onChangeText={onChangeSearchField}
+          onChangeText={(t) => setSearch(t) || onChangeSearchField(t)}
           platform={Platform.select({ios: 'ios', android: 'android'})}
         />
         {busList.map((bus) => (
