@@ -43,10 +43,7 @@ export default function Bus({
     async function fetchBusData(bus) {
       // TODO test group by
       const [result] = await conn.executeSql(
-        `SELECT * FROM schedules s
-          LEFT JOIN bus_stops bs
-            ON bs.schedule_id = s.id
-              WHERE bs.bus_id = (?);`,
+        'SELECT * FROM schedules WHERE bus_id = (?);',
         [bus.id]
       )
       const {rows: dbSchedules} = result
