@@ -5,3 +5,9 @@ export function getCurrentDayType(schedules) {
   else if (day === 6) return schedules.findIndex(i => i === '2')
   else return schedules.length - 1
 }
+
+export function getCurrentTimeDateTimeValue(hour, minute) {
+  const date = new Date(2020, 0, 3)
+  const timeDateTime = (new Date(date.setHours(hour))).setMinutes(minute)
+  return new Date(timeDateTime)
+}
