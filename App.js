@@ -45,7 +45,11 @@ function App() {
           theme={scheme === 'dark' ? DarkTheme : DefaultTheme}
         >
           <Stack.Navigator>
-            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen
+              name="Home"
+              component={Home}
+              options={{headerShown: false}}
+            />
             <Stack.Screen
               name="Bus"
               component={Bus}
