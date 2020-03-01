@@ -60,6 +60,17 @@
     ],
     "transformIgnorePatterns": [
       "/node_modules/(?!react-native|react-navigation|@react-navigation/.*|react-native-gesture-handler)"
-    ]
+    ],
+    "haste": {
+      "defaultPlatform": "android",
+      "platforms": [
+        "ios",
+        "android",
+        "native"
+      ],
+      "providesModuleNodeModules": [
+        "react-native"
+      ]
+    }
   }
 }

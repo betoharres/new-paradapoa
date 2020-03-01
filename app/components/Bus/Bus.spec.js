@@ -1,9 +1,8 @@
-import React from 'react'
 import Bus from './Bus'
-import { render } from 'react-native-testing-library'
+import {render} from '~/jest'
 
 it('renders correctly', () => {
-  const navigation = {route: {params: {bus}}}
-  const wrapper = render(<Bus navigation={navigation} />)
+  const bus = {id: 80}
+  const wrapper = render(Bus, {params: bus})
   expect(wrapper.toJSON()).toMatchSnapshot()
 })
