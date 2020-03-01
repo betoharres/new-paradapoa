@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react'
+import React, {useState, useEffect, useContext, useCallback} from 'react'
 import {Platform} from 'react-native'
 import {shape, func} from 'prop-types'
 import {SearchBar, ListItem} from 'react-native-elements'
@@ -10,6 +10,15 @@ export default function Home({navigation}) {
   const [search, setSearch] = useState('')
   const [busList, setBusList] = useState([])
   const conn = useContext(DatabaseContext)
+
+  const fetchInitialBuses = useCallback(async () => {
+    if (conn) {
+      const sql = 'SELECT * FROM buses LIMIT 30;'
+      const [result] = await conn.executeSql(sql)
+      const initialBuses = result.rows.raw()
+      setBusList(initialBuses)
+    }
+  }, [conn])
 
   async function onPressBus(bus) {
     navigation.navigate('Bus', {bus})
@@ -24,6 +33,10 @@ export default function Home({navigation}) {
     const searchedBusList = result.rows.raw()
     setBusList(searchedBusList)
   }
+
+  useEffect(() => {
+    fetchInitialBuses()
+  }, [fetchInitialBuses])
 
   return (
     <Container>
