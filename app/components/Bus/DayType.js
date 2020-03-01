@@ -7,6 +7,7 @@ import {Container, Card, ListItem} from './DayType.styles'
 import Pagination from './Pagination'
 
 import {dayTypeLabels} from './lib/constants'
+import {getCurrentDayType} from './lib/utils'
 
 const {width: SCREEN_WIDTH} = Dimensions.get('window')
 
@@ -17,11 +18,13 @@ export default function DayType({
 }) {
   const [activeDayType, setActiveDayType] = useState(0)
   const schedules = Object.keys(dayTypeSchedules)
+  const currentDayType = getCurrentDayType(schedules)
   return (
     <>
       <Container>
         <Carousel
           data={schedules}
+          firstItem={currentDayType}
           sliderWidth={SCREEN_WIDTH}
           itemWidth={SCREEN_WIDTH * 0.6}
           inactiveSlideOpacity={0.85}
