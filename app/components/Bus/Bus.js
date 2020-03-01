@@ -41,13 +41,10 @@ export default function Bus({
 
   useEffect(() => {
     async function fetchBusData(bus) {
-      // TODO test group by
-      const [result] = await conn.executeSql(
-        'SELECT * FROM schedules WHERE bus_id = (?);',
-        [bus.id]
-      )
-      const {rows: dbSchedules} = result
-      const busData = formatSchedulesIntoSections(dbSchedules)
+      const sql = 'SELECT * FROM schedules WHERE bus_id = (?);'
+      const [result] = await conn.executeSql(sql, [bus.id])
+      const {rows: schedules} = result
+      const busData = formatSchedulesIntoSections(schedules)
       setBusData(busData)
     }
     fetchBusData(bus)
