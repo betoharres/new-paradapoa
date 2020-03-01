@@ -26,7 +26,8 @@ export default function DayType({
           data={schedules}
           firstItem={currentDayType}
           sliderWidth={SCREEN_WIDTH}
-          itemWidth={SCREEN_WIDTH * 0.6}
+          swipeThreshold={5}
+          itemWidth={SCREEN_WIDTH * 0.55}
           inactiveSlideOpacity={0.85}
           inactiveSlideScale={0.6}
           onSnapToItem={setActiveDayType}
@@ -47,6 +48,7 @@ export default function DayType({
     </>
   )
 }
+
 DayType.propTypes = {
   route: shape({
     params: shape({
