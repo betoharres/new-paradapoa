@@ -41,7 +41,10 @@ export default function Bus({
 
   const fetchBusData = useCallback(
     async (bus) => {
-      const sql = 'SELECT * FROM schedules WHERE bus_id = (?);'
+      const sql =
+        'SELECT * FROM schedules ' +
+        'WHERE bus_id = (?) ' +
+        'AND isSummerTime = 0;'
       const [result] = await conn.executeSql(sql, [bus.id])
       const {rows: schedules} = result
       const busData = formatSchedulesIntoSections(schedules)
