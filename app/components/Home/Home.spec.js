@@ -1,8 +1,9 @@
-import { Platform } from 'react-native'
+import React from 'react'
 import Home from './Home'
-import { render } from '~/jest'
+import { render, mockProps } from '~/jest'
 
 it('renders correctly', () => {
-  const wrapper = render(Home)
+  const props = mockProps()
+  const wrapper = render(<Home {...props} />)
   expect(wrapper.toJSON()).toMatchSnapshot()
 })

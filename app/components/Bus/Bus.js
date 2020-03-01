@@ -24,8 +24,7 @@ export default function Bus({
     let currentSchedule
     for (let i = 0; i < dbSchedules.length; i++) {
       const schedule = dbSchedules.item(i)
-      const currentDayType = schedule.dayType
-      const {direction: currentDirection} = schedule
+      const {direction: currentDirection, dayType: currentDayType} = schedule
 
       if (!currentSchedule) {
         currentSchedule = new BusSchedule(currentDirection, currentDayType)
