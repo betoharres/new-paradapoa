@@ -37,7 +37,12 @@ export const Card = styled(RNECard).attrs(({dayType}) => {
   }
 })``
 
-export const ListItem = styled(RNEListItem).attrs(({disabled}) => ({
+export const ListItem = styled(RNEListItem).attrs(({isHandicap, disabled}) => ({
+  rightIcon: isHandicap ? {
+    name: 'accessible',
+    size: 17,
+    color: '#5182BB',
+  } : {},
   titleStyle: {
     color: disabled ? 'grey' : 'black',
   },

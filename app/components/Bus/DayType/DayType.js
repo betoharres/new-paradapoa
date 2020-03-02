@@ -41,7 +41,9 @@ export default function DayType({
                 <FlatList
                   data={dayTypeSchedules[dayType]}
                   keyExtractor={({id}) => String(id)}
-                  renderItem={({item: {time}}) => <ListItem title={time} />}
+                  renderItem={({item: {time, isHandicap}}) => (
+                    <ListItem title={time} isHandicap={isHandicap} />
+                  )}
                 />
               </Card>
             )
