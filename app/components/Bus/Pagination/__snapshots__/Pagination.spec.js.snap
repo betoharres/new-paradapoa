@@ -1,0 +1,7282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={false}
+  pointerEvents="box-none"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+        "paddingVertical": 30,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "backgroundColor": "transparent",
+      },
+    ]
+  }
+>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6000530486917385,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={false}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "marginHorizontal": 8,
+        "opacity": 1,
+        "padding": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.92)",
+          "borderRadius": 5,
+          "height": 10,
+          "marginHorizontal": 8,
+          "opacity": 0.4,
+          "transform": Array [
+            Object {
+              "scale": 0.6,
+            },
+          ],
+          "width": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;
