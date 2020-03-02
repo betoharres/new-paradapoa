@@ -27,13 +27,17 @@ export default function DayType({
           firstItem={currentDayType}
           sliderWidth={SCREEN_WIDTH}
           swipeThreshold={5}
-          itemWidth={SCREEN_WIDTH * 0.55}
+          itemWidth={SCREEN_WIDTH * 0.52}
           inactiveSlideOpacity={0.85}
           inactiveSlideScale={0.6}
           onSnapToItem={setActiveDayType}
           renderItem={({item: dayType, index}) => {
             return (
-              <Card key={dayType} title={dayTypeLabels[dayType]}>
+              <Card
+                key={dayType}
+                dayType={dayType}
+                title={dayTypeLabels[dayType]}
+              >
                 <FlatList
                   data={dayTypeSchedules[dayType]}
                   keyExtractor={({id}) => String(id)}

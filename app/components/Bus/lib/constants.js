@@ -1,7 +1,7 @@
 export const dayTypeLabels = [
   'Desconhecido',
   'Dias Úteis',
-  'Sábados',
+  'Sábado',
   'Domingo',
 ]
 

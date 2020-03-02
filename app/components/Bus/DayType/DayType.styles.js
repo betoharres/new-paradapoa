@@ -10,16 +10,32 @@ export const Container = styled.View`
   align-items: center;
 `
 
-export const Card = styled(RNECard).attrs(() => ({
-  containerStyle: {
-    borderRadius: 15,
-    maxHeight: SCREEN_HEIGHT - 205,
-    paddingBottom: 50,
-  },
-  dividerStyle: {
-    display: 'none',
-  },
-}))``
+export const Card = styled(RNECard).attrs(({dayType}) => {
+  let dayTypeColor
+  switch(dayType) {
+    case '1': // dias uteis
+      dayTypeColor = '#D6D2D3'
+      break
+    case '2': // sabado
+      dayTypeColor = '#99BBE5'
+      break
+    case '3': // domingo
+      dayTypeColor = '#E7A130'
+      break
+    default:
+      dayTypeColor = 'black'
+  }
+  return {
+    containerStyle: {
+      borderRadius: 15,
+      maxHeight: SCREEN_HEIGHT - 205,
+      paddingBottom: 50,
+    },
+    dividerStyle: {
+      backgroundColor: dayTypeColor,
+    },
+  }
+})``
 
 export const ListItem = styled(RNEListItem).attrs(({disabled}) => ({
   titleStyle: {
