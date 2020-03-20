@@ -33,6 +33,7 @@ export const Card = styled(RNECard).attrs(({dayType}) => {
     },
     dividerStyle: {
       backgroundColor: dayTypeColor,
+      height: 1,
     },
   }
 })``

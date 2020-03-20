@@ -212,7 +212,7 @@ exports[`renders correctly 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#99BBE5",
-                      "height": 0.5,
+                      "height": 1,
                       "marginBottom": 15,
                     }
                   }
