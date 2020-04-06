@@ -3,7 +3,7 @@ export const dayTypeLabels = [
   'Dias Úteis',
   'Sábado',
   'Domingo',
-]
+];
 
 export const directionLabels = [
   'Desconhecido',
@@ -24,7 +24,7 @@ export const directionLabels = [
 
   'Leste -> Sul',
   'Sul -> Leste',
-]
+];
 
 export const directionIcons = [
   {iconName: 'error', iconType: 'material'},
@@ -46,4 +46,4 @@ export const directionIcons = [
 
   {iconName: 'alpha-s-box', iconType: 'material-community'},
   {iconName: 'alpha-l-box', iconType: 'material-community'},
-]
+];

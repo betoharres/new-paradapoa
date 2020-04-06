@@ -1,41 +1,41 @@
-import React, {useState, useEffect, useContext, useCallback} from 'react'
-import {Platform, ScrollView} from 'react-native'
-import {shape, func} from 'prop-types'
-import {SearchBar, ListItem} from 'react-native-elements'
-import {Container} from './Home.styles'
+import React, {useState, useEffect, useContext, useCallback} from 'react';
+import {Platform, ScrollView} from 'react-native';
+import {shape, func} from 'prop-types';
+import {SearchBar, ListItem} from 'react-native-elements';
+import {Container} from './Home.styles';
 
-import {DatabaseContext} from '~/app/database'
+import {DatabaseContext} from '~/app/database';
 
 export default function Home({navigation}) {
-  const [search, setSearch] = useState('')
-  const [busList, setBusList] = useState([])
-  const conn = useContext(DatabaseContext)
+  const [search, setSearch] = useState('');
+  const [busList, setBusList] = useState([]);
+  const conn = useContext(DatabaseContext);
 
   const fetchInitialBuses = useCallback(async () => {
     if (conn) {
-      const sql = 'SELECT * FROM buses LIMIT 40;'
-      const [result] = await conn.executeSql(sql)
-      const initialBuses = result.rows.raw()
-      setBusList(initialBuses)
+      const sql = 'SELECT * FROM buses LIMIT 40;';
+      const [result] = await conn.executeSql(sql);
+      const initialBuses = result.rows.raw();
+      setBusList(initialBuses);
     }
-  }, [conn])
+  }, [conn]);
 
   async function onPressBus(bus) {
-    navigation.navigate('Bus', {bus})
+    navigation.navigate('Bus', {bus});
   }
 
   async function onChangeSearchField(text) {
     const [result] = await conn.executeSql(
       `SELECT * FROM buses WHERE code LIKE '%${text}%' \
-        OR name LIKE '%${text}%' LIMIT 30`
-    )
-    const searchedBusList = result.rows.raw()
-    setBusList(searchedBusList)
+        OR name LIKE '%${text}%' LIMIT 30`,
+    );
+    const searchedBusList = result.rows.raw();
+    setBusList(searchedBusList);
   }
 
   useEffect(() => {
-    fetchInitialBuses()
-  }, [fetchInitialBuses])
+    fetchInitialBuses();
+  }, [fetchInitialBuses]);
 
   return (
     <ScrollView>
@@ -58,11 +58,11 @@ export default function Home({navigation}) {
         ))}
       </Container>
     </ScrollView>
-  )
+  );
 }
 
 Home.propTypes = {
   navigation: shape({
     navigate: func.isRequired,
   }).isRequired,
-}
+};

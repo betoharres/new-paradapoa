@@ -1,18 +1,18 @@
-import React, {useState, useEffect} from 'react'
-import {Dimensions} from 'react-native'
+import React, {useState, useEffect} from 'react';
+import {Dimensions} from 'react-native';
 import {
   NavigationContainer,
   DefaultTheme,
   DarkTheme,
-} from '@react-navigation/native'
-import {createStackNavigator} from '@react-navigation/stack'
-import {AppearanceProvider, useColorScheme} from 'react-native-appearance'
+} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import {AppearanceProvider, useColorScheme} from 'react-native-appearance';
 
-import {Home, Bus} from './app/components'
-import {connectToDatabase, DatabaseContext} from './app/database'
+import {Home, Bus} from './app/components';
+import {connectToDatabase, DatabaseContext} from './app/database';
 
-const Stack = createStackNavigator()
-const {width: SCREEN_WIDTH} = Dimensions.get('window')
+const Stack = createStackNavigator();
+const {width: SCREEN_WIDTH} = Dimensions.get('window');
 const getBusNavigationOptions = ({
   route: {
     params: {bus},
@@ -24,26 +24,25 @@ const getBusNavigationOptions = ({
     justifyContent: 'center',
     maxWidth: SCREEN_WIDTH * 0.7,
   },
-})
+});
 
 function App() {
-  const [databaseConnection, setDatabaseConnection] = useState(null)
+  const [databaseConnection, setDatabaseConnection] = useState(null);
 
   useEffect(() => {
     async function initializeDatabase() {
-      const conn = await connectToDatabase()
-      setDatabaseConnection(conn)
+      const conn = await connectToDatabase();
+      setDatabaseConnection(conn);
     }
-    initializeDatabase()
-  }, [])
+    initializeDatabase();
+  }, []);
 
-  const scheme = useColorScheme()
+  const scheme = useColorScheme();
   return (
     <DatabaseContext.Provider value={databaseConnection}>
       <AppearanceProvider>
         <NavigationContainer
-          theme={scheme === 'dark' ? DarkTheme : DefaultTheme}
-        >
+          theme={scheme === 'dark' ? DarkTheme : DefaultTheme}>
           <Stack.Navigator>
             <Stack.Screen
               name="Home"
@@ -59,7 +58,7 @@ function App() {
         </NavigationContainer>
       </AppearanceProvider>
     </DatabaseContext.Provider>
-  )
+  );
 }
 
-export default App
+export default App;

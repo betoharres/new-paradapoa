@@ -1,24 +1,24 @@
-import React, {useState} from 'react'
-import {FlatList, Dimensions} from 'react-native'
-import {shape, object} from 'prop-types'
-import Carousel from 'react-native-snap-carousel'
+import React, {useState} from 'react';
+import {FlatList, Dimensions} from 'react-native';
+import {shape, object} from 'prop-types';
+import Carousel from 'react-native-snap-carousel';
 
-import {Container, Card, ListItem} from '../DayType/DayType.styles'
-import Pagination from '../Pagination/Pagination'
+import {Container, Card, ListItem} from '../DayType/DayType.styles';
+import Pagination from '../Pagination/Pagination';
 
-import {dayTypeLabels} from '../lib/constants'
-import {getCurrentDayType} from '../lib/utils'
+import {dayTypeLabels} from '../lib/constants';
+import {getCurrentDayType} from '../lib/utils';
 
-const {width: SCREEN_WIDTH} = Dimensions.get('window')
+const {width: SCREEN_WIDTH} = Dimensions.get('window');
 
 export default function DayType({
   route: {
     params: {dayTypeSchedules},
   },
 }) {
-  const [activeDayType, setActiveDayType] = useState(0)
-  const schedules = Object.keys(dayTypeSchedules)
-  const currentDayType = getCurrentDayType(schedules)
+  const [activeDayType, setActiveDayType] = useState(0);
+  const schedules = Object.keys(dayTypeSchedules);
+  const currentDayType = getCurrentDayType(schedules);
   return (
     <>
       <Container>
@@ -36,8 +36,7 @@ export default function DayType({
               <Card
                 key={dayType}
                 dayType={dayType}
-                title={dayTypeLabels[dayType]}
-              >
+                title={dayTypeLabels[dayType]}>
                 <FlatList
                   data={dayTypeSchedules[dayType]}
                   keyExtractor={({id}) => String(id)}
@@ -46,13 +45,13 @@ export default function DayType({
                   )}
                 />
               </Card>
-            )
+            );
           }}
         />
       </Container>
       <Pagination entries={schedules} activeIndex={activeDayType} />
     </>
-  )
+  );
 }
 
 DayType.propTypes = {
@@ -61,4 +60,4 @@ DayType.propTypes = {
       dayTypeSchedules: object.isRequired,
     }).isRequired,
   }).isRequired,
-}
+};

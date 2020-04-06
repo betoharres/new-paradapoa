@@ -1,15 +1,13 @@
-import React, {useCallback, useEffect, useContext, useState} from 'react'
-import {string, number, shape, func} from 'prop-types'
-// prettier fucked up
-// eslint-disable-next-line max-len
-import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs'
+import React, {useCallback, useEffect, useContext, useState} from 'react';
+import {string, number, shape, func} from 'prop-types';
+import MaterialTopTabs from '@react-navigation/material-top-tabs';
 
-import DayType from './DayType/DayType'
-import {DatabaseContext} from '~/app/database'
-import BusSchedule from './lib/BusSchedule'
-import {directionLabels} from './lib/constants'
+import DayType from './DayType/DayType';
+import {DatabaseContext} from '~/app/database';
+import BusSchedule from './lib/BusSchedule';
+import {directionLabels} from './lib/constants';
 
-const Tab = createMaterialTopTabNavigator()
+const Tab = MaterialTopTabs.createMaterialTopTabNavigator();
 
 export default function Bus({
   route: {
@@ -17,51 +15,51 @@ export default function Bus({
   },
   navigation,
 }) {
-  const conn = useContext(DatabaseContext)
-  const [busData, setBusData] = useState(null)
+  const conn = useContext(DatabaseContext);
+  const [busData, setBusData] = useState(null);
 
   function formatSchedulesIntoSections(dbSchedules) {
-    let currentSchedule
+    let currentSchedule;
     for (let i = 0; i < dbSchedules.length; i++) {
-      const schedule = dbSchedules.item(i)
-      const {direction: currentDirection, dayType: currentDayType} = schedule
+      const schedule = dbSchedules.item(i);
+      const {direction: currentDirection, dayType: currentDayType} = schedule;
 
       if (!currentSchedule) {
-        currentSchedule = new BusSchedule(currentDirection, currentDayType)
+        currentSchedule = new BusSchedule(currentDirection, currentDayType);
       } else {
         if (currentSchedule._dayType !== currentDayType) {
-          currentSchedule.newSchedules(currentDirection, currentDayType)
+          currentSchedule.newSchedules(currentDirection, currentDayType);
         }
       }
-      currentSchedule.addSchedule(schedule)
+      currentSchedule.addSchedule(schedule);
     }
-    return currentSchedule.busData
+    return currentSchedule.busData;
   }
 
   const fetchBusData = useCallback(
-    async (bus) => {
+    async ({id}) => {
       const sql =
         'SELECT * FROM schedules ' +
         'WHERE bus_id = (?) ' +
-        'AND isSummerTime = 0;'
-      const [result] = await conn.executeSql(sql, [bus.id])
-      const {rows: schedules} = result
-      const busData = formatSchedulesIntoSections(schedules)
-      setBusData(busData)
+        'AND isSummerTime = 0;';
+      const [result] = await conn.executeSql(sql, [id]);
+      const {rows: schedules} = result;
+      const busInfo = formatSchedulesIntoSections(schedules);
+      setBusData(busInfo);
     },
-    [conn]
-  )
+    [conn],
+  );
 
   useEffect(() => {
-    fetchBusData(bus)
-  }, [bus, fetchBusData])
+    fetchBusData(bus);
+  }, [bus, fetchBusData]);
 
   if (busData) {
-    const directions = Object.keys(busData)
+    const directions = Object.keys(busData);
     return (
       <Tab.Navigator tabBarOptions={{showIcon: true}} swipeEnabled={false}>
         {directions.map((direction, index) => {
-          const directionName = directionLabels[direction]
+          const directionName = directionLabels[direction];
           return (
             <Tab.Screen
               key={direction}
@@ -71,12 +69,12 @@ export default function Bus({
               tabBarAccessibilityLabel={`Sentido do Ônibus: ${directionName}`}
               initialParams={{dayTypeSchedules: busData[direction]}}
             />
-          )
+          );
         })}
       </Tab.Navigator>
-    )
+    );
   } else {
-    return null
+    return null;
   }
 }
 
@@ -93,4 +91,4 @@ Bus.propTypes = {
   navigation: shape({
     goBack: func.isRequired,
   }).isRequired,
-}
+};

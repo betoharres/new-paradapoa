@@ -1,5 +1,5 @@
-import styled from 'styled-components/native'
-import {Pagination as RNPagination} from 'react-native-snap-carousel'
+import styled from 'styled-components/native';
+import {Pagination as RNPagination} from 'react-native-snap-carousel';
 
 export const Pagination = styled(RNPagination).attrs(() => ({
   containerStyle: {
@@ -17,4 +17,4 @@ export const Pagination = styled(RNPagination).attrs(() => ({
     marginHorizontal: 8,
     backgroundColor: 'rgba(255, 255, 255, 0.92)',
   },
-}))``
+}))``;

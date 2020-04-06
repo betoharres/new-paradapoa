@@ -1,29 +1,29 @@
-import {Dimensions} from 'react-native'
-import styled from 'styled-components/native'
-import {Card as RNECard, ListItem as RNEListItem} from 'react-native-elements'
+import {Dimensions} from 'react-native';
+import styled from 'styled-components/native';
+import {Card as RNECard, ListItem as RNEListItem} from 'react-native-elements';
 
-const {height: SCREEN_HEIGHT} = Dimensions.get('window')
+const {height: SCREEN_HEIGHT} = Dimensions.get('window');
 
 export const Container = styled.View`
   flex: 1;
   flex-direction: column;
   align-items: center;
-`
+`;
 
 export const Card = styled(RNECard).attrs(({dayType}) => {
-  let dayTypeColor
-  switch(dayType) {
+  let dayTypeColor;
+  switch (dayType) {
     case '1': // dias uteis
-      dayTypeColor = '#D6D2D3'
-      break
+      dayTypeColor = '#D6D2D3';
+      break;
     case '2': // sabado
-      dayTypeColor = '#99BBE5'
-      break
+      dayTypeColor = '#99BBE5';
+      break;
     case '3': // domingo
-      dayTypeColor = '#E7A130'
-      break
+      dayTypeColor = '#E7A130';
+      break;
     default:
-      dayTypeColor = 'black'
+      dayTypeColor = 'black';
   }
   return {
     containerStyle: {
@@ -35,16 +35,18 @@ export const Card = styled(RNECard).attrs(({dayType}) => {
       backgroundColor: dayTypeColor,
       height: 1,
     },
-  }
-})``
+  };
+})``;
 
 export const ListItem = styled(RNEListItem).attrs(({isHandicap, disabled}) => ({
-  rightIcon: isHandicap ? {
-    name: 'accessible',
-    size: 17,
-    color: '#5182BB',
-  } : {},
+  rightIcon: isHandicap
+    ? {
+        name: 'accessible',
+        size: 17,
+        color: '#5182BB',
+      }
+    : {},
   titleStyle: {
     color: disabled ? 'grey' : 'black',
   },
-}))``
+}))``;
