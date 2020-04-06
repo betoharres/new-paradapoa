@@ -17,6 +17,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* paradapoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* paradapoaTests.m */; };
 		6AE3D05E2A8078B4C68FC6B7 /* libPods-paradapoa-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9106687C45E3124EC842DC23 /* libPods-paradapoa-tvOSTests.a */; };
+		B030DF41243AD5400084414D /* www in Resources */ = {isa = PBXBuildFile; fileRef = B030DF40243AD5400084414D /* www */; };
 		DB5CB280BBA4F7AEA8BF708B /* libPods-paradapoa-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA483AFA824E4EB478129E /* libPods-paradapoa-tvOS.a */; };
 		FACDD568FEFA7B370FB7AE4D /* libPods-paradapoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 350B81E8BBA4009718589489 /* libPods-paradapoa.a */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		7FF4EDF400D3BF1369E85648 /* Pods-paradapoa-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paradapoa-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-paradapoa-tvOSTests/Pods-paradapoa-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8526147A387EF5BFEF7C3828 /* Pods-paradapoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paradapoa.release.xcconfig"; path = "Target Support Files/Pods-paradapoa/Pods-paradapoa.release.xcconfig"; sourceTree = "<group>"; };
 		9106687C45E3124EC842DC23 /* libPods-paradapoa-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paradapoa-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B030DF40243AD5400084414D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = paradapoa/www; sourceTree = "<group>"; };
 		BB962D460A0D97E8078C0C4E /* Pods-paradapoa-paradapoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paradapoa-paradapoaTests.debug.xcconfig"; path = "Target Support Files/Pods-paradapoa-paradapoaTests/Pods-paradapoa-paradapoaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -123,6 +125,7 @@
 		13B07FAE1A68108700A75B9A /* paradapoa */ = {
 			isa = PBXGroup;
 			children = (
+				B030DF40243AD5400084414D /* www */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -337,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B030DF41243AD5400084414D /* www in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
