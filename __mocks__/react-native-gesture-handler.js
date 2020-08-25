@@ -1,4 +1,4 @@
-const View = require('react-native/Libraries/Components/View/View')
+const View = require('react-native/Libraries/Components/View/View');
 export default {
   Swipeable: View,
   DrawerLayout: View,
@@ -29,4 +29,4 @@ export default {
   gestureHandlerRootHOC: jest.fn(),
   Directions: {},
   createNode: jest.fn(),
-}
+};

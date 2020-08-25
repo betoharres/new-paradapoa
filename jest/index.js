@@ -7,4 +7,4 @@ export function mockProps({props = {}, params = {}} = {}) {
   return {...{route: {params}}, ...props, ...mockNavigation};
 }
 
-export * from 'react-native-testing-library';
+export * from '@testing-library/react-native';

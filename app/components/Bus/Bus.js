@@ -1,13 +1,13 @@
 import React, {useCallback, useEffect, useContext, useState} from 'react';
 import {string, number, shape, func} from 'prop-types';
-import MaterialTopTabs from '@react-navigation/material-top-tabs';
+import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 
 import DayType from './DayType/DayType';
 import {DatabaseContext} from '~/app/database';
 import BusSchedule from './lib/BusSchedule';
 import {directionLabels} from './lib/constants';
 
-const Tab = MaterialTopTabs.createMaterialTopTabNavigator();
+const Tab = createMaterialTopTabNavigator();
 
 export default function Bus({
   route: {
